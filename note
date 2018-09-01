@@ -1,0 +1,1 @@
+./va_main.py -i vtk-rm3d-test-org -o out-test
