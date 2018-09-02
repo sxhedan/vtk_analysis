@@ -9,10 +9,6 @@ def va(indir,outdir):
     print("vtk analysis")
     if not os.path.exists(outdir):
         os.makedirs(outdir)
-    '''
-    files = [f for f in os.listdir(indir) if os.path.isfile(os.path.join(indir,f))]
-    plot_dens_1D(indir,files[0],outdir)
-    '''
     multi_plot_dens_1D(indir,outdir)
     print("end")
 
